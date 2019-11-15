@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 14, 2019 at 11:33 AM
+-- Generation Time: Nov 15, 2019 at 05:26 PM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.3.7
 
@@ -40,10 +40,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `username`, `password`, `office`) VALUES
-(1, 'manok na pula', '12345', NULL),
-(2, 'DOLE', '12345', 'NCR'),
-(4, 'DEXTER', '12345', 'NCR'),
-(5, 'DEXTER', '12345', 'NCR');
+(1, 'dole', '$2y$10$4AwUG6Ae/lbu8Vz5sLIG4.0Ph6z6MyG2uiv1kYXioA7tLa/m.7Ihy', 'DOLE');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +60,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
